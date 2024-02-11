@@ -35,7 +35,7 @@
 </style>
 </head>
 <body class="font-manrope">
-    <header class="container mx-auto p-20">
+    <header class="container mx-auto">
       <div class="hero">
         <div class="hero-content flex-col lg:flex-row">
           
@@ -63,7 +63,7 @@
         </div>
       </div>
     </header>
-    <main class="container mx-auto">
+    <main class="container mx-auto ">
       <section class="text-center my-20">
         <h2 class="text-3xl font-extrabold mb-5">
           Our Featured Products
@@ -127,24 +127,102 @@
         </div>
       </section>
       <!-- Super client section -->
-      <section class="my-24 rounded-lg bg-gradient-to-r from-orange-400 to-red-600 px-16 py-20 flex flex-col lg:flex-row gap-12">
-        <div>
+      <section class="my-24 rounded-lg bg-gradient-to-r from-orange-400 to-red-600 p-24 flex flex-col lg:flex-row justify-between items-center gap-10">
+        <div class="w-96">
           <h2 class="text-5xl font-bold text-white">Meet Our Super <br>
             Clients
           </h2>
           <p class="my-6  text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure repellendus nihil, perferendis totam possimus modi quo at fuga vitae magni reiciendis id impedit nulla nostrum fugiat officia? Nam, ipsum!</p>
           <button class="btn btn-primary text-white border-none">Show All</button>
         </div>
-           <div class="rounded-lg bg-white p-10 relative">
-            <img class="absolute -left-5 -top-5  " src="images/client.png" alt="">
+        <div class="relative md:flex flex-col gap-28 ">
+          <div class="rounded-lg bg-white p-10 relative lg:w-[430px] mb-16 opacity-40 z-10">
+            <img class="absolute -left-5 -top-5 border-4 border-white rounded-full " src="images/client.png" alt="">
             <p class="font-light">We are providing the best suitable home insurance services for the people who are interested to treatment</p>
             <h4 class="text-lg font-extrabold">llham Yuda</h4>
             <p>Businessman</p>
            </div>
+          <div class="rounded-lg bg-white p-10 absolute lg:w-[430px] z-20 top-40 lg:-left-40">
+            <img class="absolute -left-5 -top-5 border-4 border-white rounded-full " src="images/client.png" alt="">
+            <p class="font-light">We are providing the best suitable home insurance services for the people who are interested to treatment</p>
+            <h4 class="text-lg font-extrabold">llham Yuda</h4>
+            <p>Businessman</p>
+           </div>
+          <div class="rounded-lg bg-white p-10 relative lg:w-[430px] opacity-40 z-10">
+            <img class="absolute -left-5 -top-5 border-4 border-white rounded-full " src="images/client.png" alt="">
+            <p class="font-light">We are providing the best suitable home insurance services for the people who are interested to treatment</p>
+            <h4 class="text-lg font-extrabold">llham Yuda</h4>
+            <p>Businessman</p>
+           </div>
+        </div>
+           
+      </section>
+      <!-- News and Events -->
+      <section>
+        <div class="text-center">
+          <h2 class="text-5xl font-extrabold my-7">New & Events</h2>
+          <p class="lg: max-w-4xl mx-auto my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum autem distinctio aperiam vitae adipisci. Tempora corrupti aut ipsum quisquam in! Odit assumenda explicabo debitis vitae soluta rem voluptatum officia eligendi!</p>
+        </div>
+        <div class="flex justify-center gap-9">
+          <div class="card card-compact w-96 border-2 p-5">
+            <figure><img src="images/news-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Feb 05, 2022</p>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p>There are variations of passages of lorem available</p>
+              <h4 class="font-extrabold">Learn more</h4>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact w-96 border-2 p-5">
+            <figure><img src="images/news-2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Feb 05, 2022</p>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p>There are variations of passages of lorem available</p>
+              <h4 class="font-extrabold">Learn more</h4>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact w-96 border-2 p-5">
+            <figure><img src="images/news-3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Feb 05, 2022</p>
+              <h2 class="card-title">Collecting 8 points for discount</h2>
+              <p>There are variations of passages of lorem available</p>
+              <h4 class="font-extrabold">Learn more</h4>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-        
-    </footer>
+      <footer class="footer p-10 bg-gray-900 text-base-content flex justify-evenly text-white mt-40">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Social</h6> 
+          <div class="grid grid-flow-col gap-4">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </nav>
+      </footer>
 </body>
 </html>
