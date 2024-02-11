@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-shop</title>
+    <!-- Tailwind and DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700;800&display=swap" rel="stylesheet">
+<!-- tailwind custom color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+    .btn-color{
+      background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+
+    }
+</style>
+</head>
+<body class="font-manrope">
+    <header class="container mx-auto p-20">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          
+          <div>
+            <h1 class="text-7xl font-bold">It's good <br>
+              tea time at The <br>Tea House</h1>
+            <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds</p>
+            <button class="btn btn-primary btn-color text-white border-none">Explore More</button>
+          </div>
+          <div>
+            <img src="images/banner.png" class="max-w-sm " />
+            <div class=" -mt-20 flex items-center gap-3 bg-white rounded-xl drop-shadow-lg p-5 w-60">
+              <div>
+                <img src="images/Group 5.svg" alt="">
+              </div>
+              <div>
+                <h3 class="text-3xl">
+                  5.00
+                </h3>
+                <p>Trust Pilot ratings</p>
+              </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto">
+      <section class="text-center my-20">
+        <h2 class="text-3xl font-extrabold mb-5">
+          Our Featured Products
+        </h2>
+        <p class="lg: max-w-3xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi sint, et facere cupiditate sequi adipisci porro ullam minus fugiat necessitatibus commodi doloribus vero aspernatur quisquam sunt quas nesciunt! Id!</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="card bg-base-100 shadow-xl my-16 p-6">
+            <figure><img src="images/tea-1.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto font-extrabold text-2xl">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl my-16 p-6">
+            <figure><img src="images/tea-2.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto font-extrabold text-2xl">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+              
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl my-16 p-6">
+            <figure><img src="images/tea-3.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto font-extrabold text-2xl">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl my-16 p-6">
+            <figure><img src="images/tea-4.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="card-title mx-auto font-extrabold text-2xl">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        
+      </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
